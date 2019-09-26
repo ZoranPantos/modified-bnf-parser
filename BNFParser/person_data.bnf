@@ -1,0 +1,6 @@
+<person_data>::=<name><age><web_link><contact>
+<name>::=regex([a-z]{1,15})
+<age>::<digit><digit>
+<digit>::="1"|"2"|"3"|"4"|"5"|"6"|"7"|"8"|"9"
+<digit>::="1"|"2"|"3"|"4"|"5"|"6"|"7"|"8"|"9"
+<contact>::=<email><phone_number>
